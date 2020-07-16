@@ -1,0 +1,13 @@
+.iconPopup {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/checkedDark.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+}
+
+.iconPopup:hover {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/checkedLight.png');
+}
