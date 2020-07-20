@@ -3,7 +3,7 @@ const body = document.body;
 const popupIconNode = document.createElement('div');
 popupIconNode.classList.add('iconPopup');
 
-popupIconNode.onclick = clickedOnPopupIcon;
+console.log("hmmm");
 
 function mouseUpped() {
     let selectedText = window.getSelection().toString();
@@ -17,8 +17,4 @@ function mouseUpped() {
         if (popupIconNode.parentNode != null)
             popupIconNode.parentNode.removeChild(popupIconNode);
     }
-}
-
-function clickedOnPopupIcon(){
-    console.log("No i fajnie");
 }
